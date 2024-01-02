@@ -17,7 +17,7 @@
   - efi.h                                   // install sample_runtime_service to runtime services table
 ```
 
-3. edk2: 注册新运行时服务
+3. edk2_file: 注册新运行时服务
 ```
 - MdeModulePkg/Core
   - /Dxe/DxeMain/DxeMain.c                  // install (EFI_SAMPLE_RUNTIME_SERVICE)CoreEfiNotAvailableYetArg3 to runtime service table
